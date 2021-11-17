@@ -1,0 +1,14 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./db/taskdb-dev"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "./db/taskdb-test"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "./db/taskdb-prod"
+  }
+}
